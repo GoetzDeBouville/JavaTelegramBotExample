@@ -13,4 +13,4 @@ public class BotConfig {
 ```
 где botname и my_token это данные вашего бота.
 3. Запускаем проект в консоли и получаем такой результат:
-<img src="./screencast/screencast.gif" width="640" height="480"> 
+<img src="./screencast/screencast.gif" width="800" height="559"> 
