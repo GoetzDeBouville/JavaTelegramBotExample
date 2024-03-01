@@ -3,7 +3,7 @@
 Проект демонстрирует работу с объктами и перегрузкой конструкторов на примере абстракций API Telegram  и класса с бизнес логикой.
 
 Для теста работы бота следуем инструкции:
-1. Клонируем проект командой `git@github.com:GoetzDeBouville/JavaTelegramBotExample.git`
+1. Скачиваем репозиторий или клонируем проект командой `git clone git@github.com:GoetzDeBouville/JavaTelegramBotExample.git`
 2. В папке /src/main/java/org/example/config/ создаем класс BotConfig следующего содержания:
 ```java
 public class BotConfig {
