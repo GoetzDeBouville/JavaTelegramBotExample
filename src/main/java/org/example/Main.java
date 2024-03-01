@@ -29,7 +29,7 @@ public class Main {
 
             @Override
             public String getBotUsername() {
-                return BotConfig.BOT_NAME; // Возвращаем имя бота
+                return BotConfig.BOT_NAME;
             }
 
             private void setNotification(long chatId, String responseText) {
