@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class MessageGenerator {
@@ -35,10 +37,10 @@ public class MessageGenerator {
     }
 
     private static String getRandomSmile() {
-        String smiles = new String("✅😁❤️🌟🎉🍕🎈");
+        ArrayList<String> smiles = new ArrayList<>(Arrays.asList("✅", "😁", "❤", "🌟", "🎉", "🍕", "🎈", "🔥", "❌", "🥳", "🏄🏻‍♂️", "🤖"));
         Random random = new Random();
-        int randomIndex = random.nextInt(smiles.length());
-        return String.valueOf(smiles.charAt(randomIndex));
+        int randomIndex = random.nextInt(smiles.size());
+        return String.valueOf(smiles.get(randomIndex));
     }
 
     private static String getSmileSet() {
