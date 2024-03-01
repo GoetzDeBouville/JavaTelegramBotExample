@@ -40,7 +40,7 @@ public class MessageGenerator {
         ArrayList<String> smiles = new ArrayList<>(Arrays.asList("✅", "😁", "❤", "🌟", "🎉", "🍕", "🎈", "🔥", "❌", "🥳", "🏄🏻‍♂️", "🤖"));
         Random random = new Random();
         int randomIndex = random.nextInt(smiles.size());
-        return String.valueOf(smiles.get(randomIndex));
+        return smiles.get(randomIndex);
     }
 
     private static String getSmileSet() {
