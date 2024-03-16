@@ -17,4 +17,7 @@ public class BotConfig {
 где botname и my_token это данные вашего бота.
 
 3. Запускаем проект в консоли и получаем такой результат:
-<img src="./screencast/screencast.gif" width="800" height="559"> 
+<img src="./screencast/00_screencast.gif" width="1100" height="559"> 
+
+Для изучения проекта по шагам используем комбинацию клавиш Ctrl+Shift+F (или  commannd+shift+F для mac)
+и в поисковой строке прописываем STEP n, где n  это номер шага (всего их 3) 
