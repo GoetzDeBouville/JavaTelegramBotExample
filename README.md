@@ -21,3 +21,4 @@ public class BotConfig {
 
 Для изучения проекта по шагам используем комбинацию клавиш Ctrl+Shift+F (или  commannd+shift+F для mac)
 и в поисковой строке прописываем STEP n, где n  это номер шага (всего их 3) 
+Предыдущую версию кода с реализацией класса Main можно посмотреть в ветке [comments](https://github.com/GoetzDeBouville/JavaTelegramBotExample/tree/comments)
